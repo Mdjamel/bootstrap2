@@ -9,4 +9,17 @@ $(function() {
       console.log("no");
     }
   });
+
+  /* Click Tabs */
+  $(".tabs .tab-switch li").click(function() {
+    $(this)
+      .addClass("selected")
+      .siblings()
+      .removeClass("selected");
+    // Show Correspond Tabs
+    $("." + $(this).data("class"))
+      .siblings()
+      .css("display", "none");
+    $("." + $(this).data("class")).css("display", "block");
+  });
 });
