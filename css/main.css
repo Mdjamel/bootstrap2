@@ -192,3 +192,85 @@ body {
   background-color: #f26522;
   color: #fff;
 }
+/* Start Sublist */
+.sublist {
+  padding: 80px;
+  background-color: #fff;
+}
+
+.sublist .sub-img {
+  margin-top: 9px;
+}
+
+.sublist .sublist-head {
+  font-weight: bold;
+}
+
+.sublist .sublist-desc {
+  line-height: 1.5;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.sublist .list-icon {
+  overflow: hidden;
+}
+
+.sublist .list-icon i {
+  width: 40px;
+  background-color: #ffffff;
+  color: #fd8a38;
+  border: 2px solid #fd8a38;
+  border-radius: 50%;
+  height: 40px;
+  line-height: 36px;
+  /* margin: 0 auto; */
+  text-align: center;
+  margin-top: 11px;
+}
+
+.sublist .list-icon .text-info {
+  width: calc(100% - 60px);
+  margin-left: 20px;
+}
+
+.sublist .list-icon .text-info h4 {
+  font-weight: bold;
+}
+/* End  Sublist */
+
+/* Start Standard Picture*/
+.standard-picture {
+  background-color: #f5f5f5;
+}
+
+.standard-picture {
+  padding: 80px;
+  background-color: #f5f5f5;
+}
+
+.standard-picture .sub-img {
+  margin-top: 9px;
+}
+
+.standard-picture .standard-head {
+  font-weight: bold;
+}
+
+.standard-picture .standard-desc {
+  line-height: 1.5;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Start Framwork */
+.head-border:after {
+  content: "";
+  width: 65px;
+  height: 3px;
+  background-color: #fd8a38;
+  display: block;
+  margin: 25px 0;
+}
+
+/* End Framwork */
